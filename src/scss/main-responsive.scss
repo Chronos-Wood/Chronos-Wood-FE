@@ -1,0 +1,126 @@
+@media screen and(min-width: 320px){
+	.right {
+		> .center{
+			img{
+				width: 280px;
+				height: 200px;
+			}
+		}
+		> .item-list{
+			// padding-left:60px;
+			//width: 100%;
+			ul{
+				>.item{
+					height: 80px;
+					> .avatar{
+						flex: 0 0 60px;
+						img{
+							height: 60px;
+							width: 60px;
+						}
+					}
+					>.content{
+						font-size: 16px;
+					}
+					>.name{
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		.bottm-img{
+			width: 220px;
+			height: 130px;
+		}
+		&.open {
+			left: 120px;
+		}
+	}
+	.left{
+		left: -120px;
+	}
+}
+@media screen and(min-width: 375px){
+	.right {
+		> .center{
+    		img{
+    			width: 320px;
+    			height: 220px;
+    		}
+		}
+		> .item-list{
+			// padding-left:70px;
+			//width: 100%;
+			ul{
+				>.item{
+					height: 100px;
+					> .avatar{
+						flex: 0 0 80px;
+						img{
+							height: 80px;
+							width: 80px;
+						}
+					}
+					>.content{
+						font-size: 20px;
+					}
+					>.name{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		.bottm-img{
+			width: 330px;
+			height: 200px;
+		}
+		&.open {
+			left: 180px;
+		}
+	}
+	.left{
+		left: -180px;
+	}
+} //>=992的设备 }
+@media screen and(min-width: 512px){
+	.right {
+		> .center{
+			img{
+				width: 600px;
+				height: 368px;
+			}
+		}
+		> .item-list{
+			width: 50%;
+			// padding-left:80px;
+			ul{
+				>.item{
+					height: 130px;
+					> .avatar{
+						flex: 0 0 100px;
+						img{
+							height: 100px;
+							width: 100px;
+						}
+					}
+					>.content{
+						font-size: 28px;
+					}
+					>.name{
+						font-size: 28px;
+					}
+				}
+			}
+		}
+		.bottm-img{
+			width: 600px;
+			height: 330px;
+		}
+		&.open {
+			left: 300px;
+		}
+	}
+	.left{
+		left: -300px;
+	}
+}

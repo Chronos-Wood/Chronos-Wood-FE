@@ -1,0 +1,34 @@
+$menu-width: 150px;
+
+$menu-desktop-width: 250px;
+
+
+
+.el-input__inner:focus{
+  border-color:#fff;
+}
+.el-textarea__inner:focus{
+ border-color:#fff;
+}
+
+.el-input__inner:hover{
+  border-color:#fff;
+}
+.el-textarea__inner:hover{
+ border-color:#fff;
+}
+
+.el-textarea__inner{
+   border-color:#fff;
+}
+.el-input__inner{
+  border-color:#fff;
+}
+.el-loading-spinner{
+  .el-loading-text{
+    color:#000;
+  }
+  .path{
+    stroke:#000;
+  }
+}

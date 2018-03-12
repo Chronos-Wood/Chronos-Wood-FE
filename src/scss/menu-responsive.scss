@@ -1,0 +1,54 @@
+@media screen and(min-width: 320px){
+	.menu-wrapper{
+		.menu-list{
+			width: 120px;
+			img{
+				width: 90px;
+				height: 90px;
+			}
+		}
+		.menu-button{
+			right: -50px;
+			img{
+				width: 50px;
+				height: 90px;
+			}
+		}
+	}
+}
+@media screen and(min-width: 375px){
+	.menu-wrapper{
+		.menu-list{
+			width: 180px;
+			img{
+				width: 110px;
+				height: 110px;
+			}
+		}
+		.menu-button{
+			right: -70px;
+			img{
+				width: 70px;
+				height: 110px;
+			}
+		}
+	}
+} //>=992的设备 }
+@media screen and(min-width: 512px){
+	.menu-wrapper{
+		.menu-list{
+			width: 300px;
+			img{
+				width: 140px;
+				height: 140px;
+			}
+		}
+		.menu-button{
+			right: -80px;
+			img{
+				width: 80px;
+				height: 140px;
+			}
+		}
+	}
+}
